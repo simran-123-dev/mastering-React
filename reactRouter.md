@@ -2,8 +2,6 @@
 🛣️ Topic 2: React Router (Navigation)
 Theory: Usually, when you click a link, the whole page reloads. In React, we use React Router so only the middle part of the screen changes. The page never refreshes.
 Code Practice:
-(Note: To run this locally, you need to run npm install react-router-dom in your terminal).
-javascript
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 // Simple Page Components
@@ -26,9 +24,4 @@ export default function App() {
     </BrowserRouter>
   );
 }
-Use code with caution.
 
-Git Action: Save this under Routing.md.
-Link: Used to navigate without refresh.
-Routes/Route: Used to define which page shows up at which URL.
-🛑
